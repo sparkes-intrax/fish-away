@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fish Away</title>
+<style>
+    body { font-family: Arial; background-color: #50aaff; color: black; text-align:center; }
+    button { font-size: 18px; margin:5px; padding:10px 20px; }
+    #log { margin-top:20px; height:300px; overflow-y:scroll; background:white; padding:10px; border:2px solid black;}
+</style>
+</head>
+<body>
+<h1>🎣 Fish Away 🎣</h1>
+<div>
+    <button onclick="fish()">🎣 Fish</button>
+    <button onclick="showInventory()">📦 Inventory</button>
+    <button onclick="sellFish()">💰 Sell Fish</button>
+    <button onclick="rest()">😴 Rest</button>
+    <button onclick="travel()">⛴ Travel</button>
+    <button onclick="adminPanel()">🛠 Admin</button>
+</div>
+<div id="log"></div>
+<script src="game.js"></script>
+</body>
+</html>
